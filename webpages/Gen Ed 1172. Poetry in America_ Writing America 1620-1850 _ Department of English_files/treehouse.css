@@ -1,0 +1,16 @@
+/* treehouse medium */
+@font-face {
+  font-family: 'Treehouse';
+  font-style: normal;
+  font-weight: 500;
+  src: url('treehouse/TT_Treehouse_Medium.woff2') format('woff2');
+}
+
+/* treehouse medium Italic */
+@font-face {
+  font-family: 'Treehouse';
+  font-style: italic;
+  font-weight: 500;
+  src: url('treehouse/TT_Treehouse_Medium_Italic.woff2') format('woff2');
+}
+
