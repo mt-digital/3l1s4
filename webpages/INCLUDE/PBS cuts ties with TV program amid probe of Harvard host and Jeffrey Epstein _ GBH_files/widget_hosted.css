@@ -1,0 +1,246 @@
+.hover-border {
+    border: 1px dotted #999;
+    cursor: move;
+}
+
+.transparent-border {
+    border: 1px solid transparent;
+}
+
+@-webkit-keyframes load4 {
+    0%,100% {
+        box-shadow: 0 -3em 0 .2em,2em -2em 0 0,3em 0 0 -1em,2em 2em 0 -1em,0 3em 0 -1em,-2em 2em 0 -1em,-3em 0 0 -1em,-2em -2em 0 0
+    }
+
+    12.5% {
+        box-shadow: 0 -3em 0 0,2em -2em 0 .2em,3em 0 0 0,2em 2em 0 -1em,0 3em 0 -1em,-2em 2em 0 -1em,-3em 0 0 -1em,-2em -2em 0 -1em
+    }
+
+    25% {
+        box-shadow: 0 -3em 0 -.5em,2em -2em 0 0,3em 0 0 .2em,2em 2em 0 0,0 3em 0 -1em,-2em 2em 0 -1em,-3em 0 0 -1em,-2em -2em 0 -1em
+    }
+
+    37.5% {
+        box-shadow: 0 -3em 0 -1em,2em -2em 0 -1em,3em 0 0 0,2em 2em 0 .2em,0 3em 0 0,-2em 2em 0 -1em,-3em 0 0 -1em,-2em -2em 0 -1em
+    }
+
+    50% {
+        box-shadow: 0 -3em 0 -1em,2em -2em 0 -1em,3em 0 0 -1em,2em 2em 0 0,0 3em 0 .2em,-2em 2em 0 0,-3em 0 0 -1em,-2em -2em 0 -1em
+    }
+
+    62.5% {
+        box-shadow: 0 -3em 0 -1em,2em -2em 0 -1em,3em 0 0 -1em,2em 2em 0 -1em,0 3em 0 0,-2em 2em 0 .2em,-3em 0 0 0,-2em -2em 0 -1em
+    }
+
+    75% {
+        box-shadow: 0 -3em 0 -1em,2em -2em 0 -1em,3em 0 0 -1em,2em 2em 0 -1em,0 3em 0 -1em,-2em 2em 0 0,-3em 0 0 .2em,-2em -2em 0 0
+    }
+
+    87.5% {
+        box-shadow: 0 -3em 0 0,2em -2em 0 -1em,3em 0 0 -1em,2em 2em 0 -1em,0 3em 0 -1em,-2em 2em 0 0,-3em 0 0 0,-2em -2em 0 .2em
+    }
+}
+
+@keyframes load4 {
+    0%,100% {
+        box-shadow: 0 -3em 0 .2em,2em -2em 0 0,3em 0 0 -1em,2em 2em 0 -1em,0 3em 0 -1em,-2em 2em 0 -1em,-3em 0 0 -1em,-2em -2em 0 0
+    }
+
+    12.5% {
+        box-shadow: 0 -3em 0 0,2em -2em 0 .2em,3em 0 0 0,2em 2em 0 -1em,0 3em 0 -1em,-2em 2em 0 -1em,-3em 0 0 -1em,-2em -2em 0 -1em
+    }
+
+    25% {
+        box-shadow: 0 -3em 0 -.5em,2em -2em 0 0,3em 0 0 .2em,2em 2em 0 0,0 3em 0 -1em,-2em 2em 0 -1em,-3em 0 0 -1em,-2em -2em 0 -1em
+    }
+
+    37.5% {
+        box-shadow: 0 -3em 0 -1em,2em -2em 0 -1em,3em 0 0 0,2em 2em 0 .2em,0 3em 0 0,-2em 2em 0 -1em,-3em 0 0 -1em,-2em -2em 0 -1em
+    }
+
+    50% {
+        box-shadow: 0 -3em 0 -1em,2em -2em 0 -1em,3em 0 0 -1em,2em 2em 0 0,0 3em 0 .2em,-2em 2em 0 0,-3em 0 0 -1em,-2em -2em 0 -1em
+    }
+
+    62.5% {
+        box-shadow: 0 -3em 0 -1em,2em -2em 0 -1em,3em 0 0 -1em,2em 2em 0 -1em,0 3em 0 0,-2em 2em 0 .2em,-3em 0 0 0,-2em -2em 0 -1em
+    }
+
+    75% {
+        box-shadow: 0 -3em 0 -1em,2em -2em 0 -1em,3em 0 0 -1em,2em 2em 0 -1em,0 3em 0 -1em,-2em 2em 0 0,-3em 0 0 .2em,-2em -2em 0 0
+    }
+
+    87.5% {
+        box-shadow: 0 -3em 0 0,2em -2em 0 -1em,3em 0 0 -1em,2em 2em 0 -1em,0 3em 0 -1em,-2em 2em 0 0,-3em 0 0 0,-2em -2em 0 .2em
+    }
+}
+
+/*#modal_loading_img {
+    display: none;
+    position: fixed;
+    z-index: 90000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(https://cdn.pushplanet.com/static/loading_animation.gif) 50% 50% no-repeat rgba(255,255,255,.8)
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.error-bubble {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    padding: 12px 15px;
+    margin: 0;
+    text-align: left;
+    position: fixed;
+    /*top: 30px;
+    left: 30px;*/
+    color: red;
+    background-color: #fff4f4;
+    border: 1px solid #d58a8a;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'Open Sans','lucida grande','Segoe UI',arial,verdana,'lucida sans unicode',tahoma,sans-serif;
+    z-index: 10000001;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+.error-bubble .error-message {
+    color: #d58a8a;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.error-message {
+    color: #dd3b38;
+    font-size: 10px;
+}
+
+#error_close {
+    color: #dd3b38;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+.error-bubble .error-bubble-arrow-border {
+    display: block;
+    border-color: #d58a8a transparent transparent;
+    border-style: solid;
+    border-width: 6px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: -13px;
+    left: 10px;
+}
+
+
+
+.success-bubble {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    padding: 12px 15px;
+    margin: 0;
+    text-align: left;
+    position: fixed;
+    /*top: 30px;
+    left: 30px;*/
+    color: red;
+    background-color: #ffffff;
+    border: 1px solid #2dbe60;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'Open Sans','lucida grande','Segoe UI',arial,verdana,'lucida sans unicode',tahoma,sans-serif;
+    z-index: 10000001;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+.success-bubble .success-message {
+    color: #2dbe60;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.success-message {
+    color: #2dbe60;
+    font-size: 10px;
+}
+
+#success_close {
+    color: #2dbe60;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+.success-bubble .success-bubble-arrow-border {
+    display: block;
+    border-color: #2dbe60 transparent transparent;
+    border-style: solid;
+    border-width: 6px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: -13px;
+    left: 10px;
+}
+
+
+
+
+#modal_loading {
+    display: none;
+    position: fixed;
+    z-index: 9999000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,.8);
+}
+
+#modal_loading_spinner {
+    position: fixed;
+    z-index: 9999001;
+    color: #0078d7;
+    font-size: 15px;
+    margin: 0;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    text-indent: -9999em;
+    -webkit-animation: load4 1.3s infinite linear;
+    animation: load4 1.3s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+body.loading {
+    overflow: hidden;
+}
+
+body.loading #modal_loading {
+    display: block;
+}

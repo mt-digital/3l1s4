@@ -1,0 +1,89 @@
+﻿	.gray_wizard_div
+		{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:8000px;
+		opacity:0.7;
+		background:#000;
+		z-index:20000;
+		}
+	#container_image_wizard
+		{
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:21000;
+		opacity:1;
+		width:100%;
+		}	
+	#container_image_wizard img
+		{
+		max-width:990px !important;
+		}		
+	#container_image_wizard img#image_wizard_close_btn
+		{
+		position:relative;
+		top:0;
+		left:0;
+		z-index:21;
+		opacity:1;
+		width:28px;
+		height:28px;
+		cursor:pointer;
+		}
+	#div_img_zoom_wrap		
+		{
+		display:block;
+		overflow:hidden;
+		margin:50px auto 0;
+		border:5px solid #000;
+        max-width:990px;
+        background:#000;
+        min-width:100px;
+		}
+	#div_img_zoom_wrap span
+		{
+		background: none repeat scroll 0 0 #000;
+		color: #fff;
+		direction:rtl;
+		display:block;
+		font:normal 11px arial;
+		overflow:hidden;
+		text-align:right;
+		width:100%;
+		padding-top:5px;
+		margin-top:-4px;
+		}
+	.zoom_img_link
+		{
+		position:relative;
+		display:inline-block;
+		z-index:18;		
+		cursor:pointer;
+		}
+	.zoom_img_link .zoom_img
+		{
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:19;		
+		display:none;
+		}
+	.zoom_img_link:hover .zoom_img
+	    {
+        display:block;
+	    }	
+    html body.ShowBigImageWizard 
+        {
+        overflow:hidden !important;		
+        }
+    #wrap_main_img_with_scroll
+        {
+        overflow:hidden;
+        overflow-y:scroll;
+        padding-right:20px;
+        max-height:700px;
+        
+        }        

@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Icons";
+  src: url('Icons.eot?1770359165');
+  src: url('Icons.eot?1770359165#iefix') format('eot'),
+    url('Icons.woff2?1770359165') format('woff2'),
+    url('Icons.woff?1770359165') format('woff'),
+    url('Icons.ttf?1770359165') format('truetype'),
+    url('Icons.svg?1770359165#Icons') format('svg');
+}
+
+.icon:before {
+  font-family: "Icons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  top: 0.19em;
+}
+
+
+.icon-arrow-right:before {
+  content: "\E001";
+}
+
+.icon-book:before {
+  content: "\E002";
+}
+
+.icon-chevron-down:before {
+  content: "\E003";
+}
+
+.icon-chevron-left:before {
+  content: "\E004";
+}
+
+.icon-chevron-right:before {
+  content: "\E005";
+}
+
+.icon-chevron-up:before {
+  content: "\E006";
+}
+
+.icon-close:before {
+  content: "\E007";
+}
+
+.icon-facebook:before {
+  content: "\E008";
+}
+
+.icon-handshake:before {
+  content: "\E009";
+}
+
+.icon-helping:before {
+  content: "\E00A";
+}
+
+.icon-instagram:before {
+  content: "\E00B";
+}
+
+.icon-light-bulb:before {
+  content: "\E00C";
+}
+
+.icon-link:before {
+  content: "\E00D";
+}
+
+.icon-linkedin:before {
+  content: "\E00E";
+}
+
+.icon-location:before {
+  content: "\E00F";
+}
+
+.icon-mail:before {
+  content: "\E010";
+}
+
+.icon-pause-circle:before {
+  content: "\E011";
+}
+
+.icon-phone:before {
+  content: "\E012";
+}
+
+.icon-play-circle:before {
+  content: "\E013";
+}
+
+.icon-search:before {
+  content: "\E014";
+}
+
+.icon-twitter:before {
+  content: "\E015";
+}
+
+.icon-website:before {
+  content: "\E016";
+}

@@ -1,0 +1,1 @@
+.single--team-member{margin-bottom:80px}@media(min-width: 960px){.single--team-member{display:grid;grid-template-columns:3.25fr 6.75fr;-webkit-column-gap:30px;-moz-column-gap:30px;column-gap:30px}.single--team-member--no-image{grid-template-columns:1fr}}@media(max-width: 960px){.single--team-member__image{margin-bottom:30px}}.single--team-member__image img{width:100%}

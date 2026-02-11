@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: Microsoft-IIS/5.0
+Date: Sun, 27 Jan 2002 19:09:20 GMT
+Content-Type: text/css
+Accept-Ranges: bytes
+Last-Modified: Thu, 26 Oct 2000 12:23:37 GMT
+ETag: "60adf590473fc01:90a"
+Content-Length: 262
+
+.btext   { font-family: Ariel; font-size: 11px; color: black; }
+.ctext A { font-family: Ariel; font-size: 11px; color: white; }
+.gtext   { font-family: Ariel; font-size: 12px; color: green; }
+.rtext   { font-family: Ariel; font-size: 12px; color: red;   }
+

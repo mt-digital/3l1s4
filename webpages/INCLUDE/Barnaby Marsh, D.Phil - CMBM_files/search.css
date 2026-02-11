@@ -1,0 +1,1 @@
+.header .search{font-size:0}.header .search:before{font-size:18px}.header__main .search{position:absolute;top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}@media(min-width: 960px){.header__main .search{display:none}}.menu-container--header-secondary .search{margin-left:15px}
