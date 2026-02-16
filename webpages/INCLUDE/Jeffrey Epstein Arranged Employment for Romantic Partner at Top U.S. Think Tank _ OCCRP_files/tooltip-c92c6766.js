@@ -1,0 +1,1 @@
+const t=document.querySelectorAll(".wp-wysiwyg");t&&Object.keys(t).length>0&&Object.values(t).forEach(l=>{const r=l.querySelectorAll("a");Object.values(r).forEach(e=>{var c;e.getAttribute("href")==="#"&&((c=e.title)==null?void 0:c.length)>0&&(e.dataset.tooltip=e.title,e.removeAttribute("title"),e.addEventListener("click",a=>{a.preventDefault()}))})});

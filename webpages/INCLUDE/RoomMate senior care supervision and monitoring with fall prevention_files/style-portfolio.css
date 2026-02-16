@@ -1,0 +1,329 @@
+/* Start: Recommended Quicksand styles */
+
+/*---------------------------------------------------- */
+/* Quicksand styles */
+/*---------------------------------------------------- */
+
+.element img {
+	height: auto;
+}
+
+
+/*---------------------------------------------------- */
+/* Portfolio background */
+/*---------------------------------------------------- */
+
+.post-type-archive-portfolio #content,
+.page-template-template-portfolio-php #content {
+	background: #596064;
+}
+
+
+/*---------------------------------------------------- */
+/* Filter styles  */
+/*---------------------------------------------------- */
+
+#portfolio-options {
+	text-align: center;
+	position: relative;
+	float: right;
+	margin: 0 10px 15px 0;
+}
+#portfolio-options .port-collapse {
+	position: absolute;
+	width: 150px;
+	z-index: 9;
+	background: #FFF;
+}
+.portfolio-nav.port-navbar {
+	display: block;
+	width: 150px;
+	padding: 5px 0;
+}
+.portfolio-nav.port-navbar,
+.portfolio-nav.port-navbar.collapsed:hover {
+	color: #FFF;
+	background: #DC4444;
+}
+.portfolio-nav.port-navbar.collapsed {
+	color: inherit;
+	background: #FFF;	
+}
+.portfolio-nav.port-navbar i {
+	margin-right: 10px;
+}
+#filter.portfolio-filter {
+	margin: 0;
+	list-style-type: none;
+}
+#filter.portfolio-filter li {
+	display: block;
+}
+#filter.portfolio-filter li a {
+	display: block;
+	color: inherit;
+	padding: 4px 14px;
+}
+#filter.portfolio-filter li a:hover,
+#filter.portfolio-filter li a.selected {
+	color: #FFF;
+	background: #2D2D2D;
+}
+.portfolio-wrapper {
+	position: relative;
+	height: auto !important;
+}
+.portfolio-wrapper #container-inner {
+	max-width: 100%;
+	position: relative !important;
+}
+
+/*---------------------------------------------------- */
+/* Hover styles  */
+/*---------------------------------------------------- */
+
+/* Set full width image for 1 column layout */
+.column-1 .port-thumb img {
+	width: 100%;
+}
+
+/* Portolio Hover */
+.port-thumb li,
+.port-thumb li  >a img,
+.port-thumb,
+.port-thumb img {
+	display: block;
+	position: relative;
+}
+.port-thumb li {
+	overflow: hidden;
+}
+.port-thumb li article {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+.port-thumb li article::before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+/* Initial state classes: */
+.port-thumb {
+	position: relative;
+	text-align:center;
+	margin: 0;
+}
+.port-thumb > li > a,
+.port-thumb iframe {
+	display: block;
+}
+.port-thumb .entry-content {
+	width:100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.port-thumb .entry-content a ,
+.port-thumb .entry-content a:hover {
+	color: white;
+}
+.port-thumb .entry-content em {
+	display:block;
+	color:#fff;
+	margin-bottom:10px;
+}
+.port-thumb .entry-content img {
+	display:inline-block;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-o-border-radius: 0px
+	border-radius: 0px;
+}
+
+
+/*---------------------------------------------------- */
+/* Hover effect  */
+/*---------------------------------------------------- */
+
+/* Image and article effect */
+.port-thumb .image-overlay {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.port-thumb:hover .image-overlay {
+	opacity: 0.9;
+	visibility: visible;
+}
+.port-thumb .image-overlay-inner {
+	display: table;
+	width: 100%;
+	height: 100%;
+	background: #DC4444;
+}
+.port-thumb .image-overlay .prettyphoto-wrap {
+	display: table-cell;
+	vertical-align: middle;
+}
+.port-thumb .image-overlay-inner a {
+	display: inline-block;
+	color: #FFF;
+	font-size: 33px;
+	font-weight: bold;
+	line-height: 35px;
+	width: 35px;
+	height: 35px;
+	border: 2px solid #FFF;
+	margin: 3px;	
+	webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+.port-thumb .image-overlay-inner a:hover {
+	background: #2D2D2D;
+	border-color: #2D2D2D;
+}
+.port-thumb .image-overlay-inner i {
+	font-style: normal;
+		line-height: 35px;
+		font-style: normal;
+}
+
+.port-thumb .hover-link,
+.port-thumb .hover-zoom {
+	text-align: center;
+	margin: 0 5px;
+}
+
+/* animation when both links are showing */
+.port-thumb .hover-link {
+	-webkit-transform: translateX(35px);
+	-moz-transform: translateX(35px);
+	-ms-transform: translateX(35px);
+	-o-transform: translateX(35px);
+	transform: translateX(35px);
+}
+.port-thumb .hover-zoom {
+	-webkit-transform: translateX(-35px);
+	-moz-transform: translateX(-35px);
+	-ms-transform: translateX(-35px);
+	-o-transform: translateX(-35px);
+	transform: translateX(-35px);
+}
+
+/* animation when only a single link is showing */
+.port-thumb .image-overlay.style2 .hover-link,
+.port-thumb .image-overlay.style2  .hover-zoom {
+	-webkit-transform: translateY(35px);
+	-moz-transform: translateY(35px);
+	-ms-transform: translateY(35px);
+	-o-transform: translateY(35px);
+	transform: translateY(35px);
+}
+
+.port-thumb:hover .image-overlay.style2 .hover-link,
+.port-thumb:hover .image-overlay.style2 .hover-zoom,
+.port-thumb:hover .hover-link,
+.port-thumb:hover .hover-zoom {
+	-webkit-transform: translate(0);
+	-moz-transform: translate(0);
+	-ms-transform: translate(0);
+	-o-transform: translate(0);
+	transform: translate(0)
+}
+
+/* Title effect */
+.port-details {
+	background: #FFF;
+	text-align: center;
+	padding: 15px 10px 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.port-title,
+.port-tags {
+	margin: 0;
+}
+.port-title a {
+	color: inherit;
+}
+.port-title a:hover {
+	color: #dc4444;
+}
+.port-style2 .port-details {
+	border: 1px solid #DDD;
+	border-top: none;
+}
+
+/* Portfolio Slider & Featured Projects */
+#port-slider {
+	padding: 20px 10px 5px;
+}
+#port-slider a.rslides_nav:hover {
+	background: #596064;
+}
+
+#port-featured {
+	padding: 0 10px;
+}
+#port-featured img {
+	display: block;
+}
+#port-featured .port-title {
+	color: #FFF;
+	padding-top: 40px;
+}
+#port-featured .sc-carousel {
+	padding: 0;
+}
+#port-featured .sc-carousel li {
+	padding: 0 25px 0 0;
+}
+#port-featured .sc-carousel a.prev,
+#port-featured .sc-carousel a.next {
+	top: -25px;
+}
+#port-featured .sc-carousel a.next {
+	right: 25px;
+}
+#port-featured .sc-carousel a.prev {
+	left: auto;
+	right: 65px;
+}
+
+/* Excerpt effect */
+
+
+/* Link & lightbox image effect */

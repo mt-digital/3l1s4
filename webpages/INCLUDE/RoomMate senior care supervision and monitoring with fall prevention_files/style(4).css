@@ -1,0 +1,211 @@
+/*------------------------------------*\
+    FORM
+\*------------------------------------*/
+form {
+    background-image:url('img/122_01.jpg');
+    background-position:0% 0%;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-color:#151515;
+    width:460px;
+    height:460px;
+    padding:155px 42px 51px 46px;
+}
+/*------------------------------------*\
+    FONT
+\*------------------------------------*/
+.label label,
+.field .block,
+.field .list,
+.choose .list,
+.button span,
+.info p {
+    font-family:'Roboto', sans-serif;
+}
+/*------------------------------------*\
+    CONTAINER OFFSET
+\*------------------------------------*/
+/* [ label|input group offset ] */
+[data-editable="custom"] {
+    padding:12px 3px;
+}
+/*------------------------------------*\
+    LABEL
+\*------------------------------------*/
+.label label {
+    font-size:22px;
+    color:#252525;
+    line-height: 300;
+}
+/* [ Label label-position-left|right ratio ] */
+.label-position-left .label,
+.label-position-right .label {
+    width:40%;
+}
+.label-position-left .box,
+.label-position-right .box {
+    width:60%;
+}
+/*------------------------------------*\
+    BORDER - input, select list, select placeholder
+\*------------------------------------*/
+/* Only border|border-radius */
+.field .border {
+    /**/
+    border: none;
+}
+/*------------------------------------*\
+    INPUT/PLACEHOLDER
+\*------------------------------------*/
+/* [ Input|select placeholder ] */
+.field .block {
+    font-size:22px;
+    font-weight: 300;
+    font-family:'Roboto', sans-serif;
+    color:#252525;
+    background-color: #fff;
+    border-radius: 39px;
+}
+/* [ Input|select|textarea|label padding ] */
+.field .padding {
+    padding-top:12px;
+    padding-right:3px;
+    padding-bottom:12px;
+    padding-left:3px;
+}
+.label-position-left .label,
+.label-position-right .label {
+    padding-top:12px;
+}
+/* [ Nativ placeholder ] */
+.field .placeholder.like-placeholder {
+    font-size:22px;
+    font-weight: 300;
+    color:#252525;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    font-size:22px;
+    font-weight: 300;
+    color:#252525;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    font-size:22px;
+    font-weight: 300;
+    color:#252525;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    font-size:22px;
+    font-weight:300;
+    color:#252525;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    font-size:22px;
+    font-weight:300;
+    color:#252525;
+}
+/*------------------------------------*\
+    DROPDOWN SELECT LIST
+\*------------------------------------*/
+/* [ List block - that same padding like .field .block ] */
+.list-item label {
+    padding-left:3px;
+    padding-right:3px;
+}
+/* [ Drop List::select|phone ] */
+.field .list {
+    font-size:22px;
+    font-weight: 300;
+    line-height:1.4;
+    color:#252525;
+    background-color:#fff;
+}
+/* [ Drop list text background::select|phone ] */
+.field .list .list-item .item-label {
+    /**/
+}
+/* [ Hover text background|color - :hover and .hover add two times -> editor required] */
+.field .list .list-item:hover .item-label {
+    color:#000;
+}
+.field .list .list-item .item-label.hover {
+    color:#000;
+}
+/* [ Selected text background|color ] */
+.field .list-item .item-label.selected,
+.field .list-item input:checked + .item-label {
+    color:#000;
+}
+/*------------------------------------*\
+    RADIO/CHECKBOX
+\*------------------------------------*/
+/* [ Radio|Checkbox text style ] */
+.choose .list {
+    font-size:22px;
+    font-weight: 300;
+    color:#252525;
+    line-height:1.4;
+}
+/* [ Item background - background on text in <li> ] */
+.choose .list .list-item .item-label {
+    /**/
+}
+/* :hover and .hover add two times -> editor required */
+.choose .list .list-item:hover .item-label {
+    color:#000;
+}
+.choose .list .list-item .item-label.hover {
+    color:#000;
+}
+/* [ Selected ] */
+.choose .list-item .item-label.selected,
+.choose .list-item input:checked + .item-label {
+    color:#000;
+}
+/*------------------------------------*\
+    BUTTON
+\*------------------------------------*/
+.button {
+    height:56px;
+    background: #e60000;
+    border: none;
+    border-radius: 39px;
+}
+.button span {
+    font-size:18px;
+    font-weight: 900;
+    font-family:'Roboto', sans-serif;
+    color:#fff;
+}
+/* :hover and .hover add two times -> editor required */
+.button:hover {
+    background-color:#fff;
+    color: #ff6a6a;
+}
+.button.hover {
+    background-color:#fff;
+    color: #ff6a6a;
+}
+/*------------------------------------*\
+    FIELD ICO
+\*------------------------------------*/
+.field-icon .field-icon-sign::after {
+    padding-right:3px;
+}
+.field-icon.select.open .field-icon-sign::after {
+    padding-left:3px;
+    padding-right:0;
+}
+/*------------------------------------*\
+    INFORMATION TEXT
+\*------------------------------------*/
+.info p {
+    font-family:Helvetica, sans-serif;
+    font-size:11px;
+    font-style: 400;
+    color:#fff;
+    line-height:normal;
+}
