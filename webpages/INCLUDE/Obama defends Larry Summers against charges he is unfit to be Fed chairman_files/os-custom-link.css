@@ -1,0 +1,42 @@
+/* This CSS file helps the custom OneSignal link prompt to look like other elements in the secondary footer. */
+.onesignal-customlink-container {
+    display: inline-block;
+}
+
+.onesignal-customlink-container .onesignal-customlink-explanation {
+    display: none !important;
+}
+
+.newsnation .onesignal-customlink-container .onesignal-customlink-subscribe {
+    font-family: Fira Sans, arial, helvetica, verdana, sans-serif !important;
+    font-size: .875rem !important;
+    font-weight: 500 !important;
+    line-height: 1.25 !important;
+    text-transform: capitalize !important;
+}
+
+.onesignal-customlink-container .onesignal-customlink-subscribe {
+    font-size: 100%;
+    text-transform: capitalize !important;
+    font-weight: normal !important;
+}
+
+.the-hill .onesignal-customlink-container button {
+    font-size: 0.7425rem !important;
+    color: #70727c !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.the-hill .onesignal-customlink-subscribe:active, .the-hill .onesignal-customlink-subscribe:focus, .the-hill .onesignal-customlink-subscribe:hover {
+    text-decoration: none !important;
+}
+
+.nexstar-wv .onesignal-customlink-container button, .onesignal-customlink-subscribe.link {
+    text-transform: capitalize !important;
+    font-weight: 400 !important;
+}
+
+.nexstar-wv .onesignal-customlink-subscribe:active, .nexstar-wv .onesignal-customlink-subscribe:focus, .nexstar-wv .onesignal-customlink-subscribe:hover {
+    text-decoration: underline !important;
+}

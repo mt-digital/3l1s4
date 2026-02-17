@@ -1,0 +1,52 @@
+.cnx-keep-watching-prompt{
+  position: absolute;
+  z-index: 3;
+  bottom: -25px;
+  width: 100%;
+  color: white;
+  background: #1e1b1b;
+  border: #ffffff82 solid 0.3px;
+  height: 20px;
+}
+.cnx-keep-watching-prompt:hover{
+  background: #3d3b3b;
+}
+.cnx-keep-watching-button{
+  color:white;
+}
+.cnx-stay-next{
+  transform: translateY(-20px);
+}
+.cnx-stay-next .cnx-up-next-box-gradient{
+  border: #ffffff82 solid 0.3px;
+}
+.cnx-stay-meter {
+  height: 5px;
+  position: absolute;
+  background: #f3efe673;
+  overflow: hidden;
+  z-index: 10;
+  bottom: 0;
+  width: 100%;
+}
+
+.cnx-stay-meter span {
+  display: block;
+  height: 100%;
+}
+
+.cnx-stay-progress-bar {
+  background-color: #0099FF;
+  animation: cnx-stay-progressbar 7s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes cnx-stay-progressbar {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}

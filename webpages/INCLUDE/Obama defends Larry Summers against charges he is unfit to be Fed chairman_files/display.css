@@ -1,0 +1,947 @@
+/* This stylesheet is used to style the public view of the plugin. */
+
+.form-control:focus {
+    outline: none;
+}
+
+/* Nexstar theme */
+/* Newsnation theme */
+.nexstar .sailthru-signup-display-area,
+.newsnation .sailthru-signup-display-area {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px 5px 20px;
+    text-align: center;
+}
+
+.nexstar .sailthru-signup-display-button-area,
+.the-hill .sailthru-signup-display-button-area,
+.newsnation .sailthru-signup-display-button-area {
+    display: inline-block;
+    margin: 18px 5px 13px 5px;
+}
+
+.nexstar .sailthru-signup-display-message-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.nexstar .sailthru-subscribe-grid-display.sailthru-subscribe-SM-display .sailthru-signup-display-message-wrapper,
+.newsnation .sailthru-subscribe-grid-display.sailthru-subscribe-SM-display .sailthru-signup-display-message-wrapper {
+  align-items: center;
+}
+
+.nexstar .sailthru-signup-display-message,
+.newsnation .sailthru-signup-display-message,
+.nexstar .sailthru-signup-display-sub-message,
+.newsnation .sailthru-signup-display-sub-message {
+    display: inline-block;
+    font-family: Roboto Condensed,arial,helvetica,verdana,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    line-height: 1;
+    text-align: left;
+    text-transform: none;
+}
+
+.nexstar .sailthru-signup-display-message span,
+.newsnation .sailthru-signup-display-message span,
+.nexstar .sailthru-signup-display-sub-message {
+    text-transform: uppercase;
+}
+
+.the-hill .sailthru-signup-display-sub-message {
+    min-width: 12.5rem;
+    max-width:12.5rem;
+    margin: 1rem auto;
+}
+
+.nexstar .sailthru-signup-success-message,
+.the-hill .sailthru-signup-success-message {
+    line-height: 1;
+    margin: 1rem 0.5rem;
+    text-align: center;
+    font-family: Roboto Condensed,arial,helvetica,verdana,sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.nexstar .sailthru-signup-display-button {
+    cursor: pointer;
+    background-color: #2d5ea8;
+    border: 0;
+    color: #fff;
+    font: bold 12px Arial !important;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nexstar .sailthru-signup-display-button:focus,
+.the-hill .sailthru-signup-display-button:focus,
+.newsnation .sailthru-signup-display-button:focus {
+    outline:none;
+}
+
+.nexstar .sailthru-add-subscriber-errors,
+.the-hill .sailthru-add-subscriber-errors,
+.newsnation .sailthru-add-subscriber-errors {
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    height: 16px;
+}
+
+.nexstar .sailthru-subscribe-grid-display,
+.the-hill .sailthru-subscribe-grid-display {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    align-items: center;
+}
+
+.nexstar .sailthru-subscribe-SM-display,
+.the-hill .sailthru-subscribe-SM-display {
+    display: block !important;
+}
+
+.nexstar .sailthru-wrapper-SM-display,
+.the-hill .sailthru-wrapper-SM-display,
+.newsnation .sailthru-wrapper-SM-display,
+.nexstar-wv .sailthru-wrapper-SM-display {
+    display: block !important;
+}
+
+.nexstar .sailthru-add-subscriber-form,
+.the-hill .sailthru-add-subscriber-form {
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    margin-top: 0.7rem;
+}
+
+.nexstar .sailthru-subscribe-form-SM-display,
+.the-hill .sailthru-subscribe-form-SM-display,
+.newsnation .sailthru-subscribe-form-SM-display {
+    text-align: center;
+    margin: 0 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.nexstar .sailthru-signup-display-button .sailthru-subscribe-form-SM-display,
+.the-hill .sailthru-signup-display-button .sailthru-subscribe-form-SM-display,
+.newsnation .sailthru-signup-display-button .sailthru-subscribe-form-SM-display {
+    margin: 0rem 0rem 1.3rem 0rem !important;
+}
+
+.nexstar .sailthru-signup-display-button.sailthru-subscribe-form-SM-display,
+.newsnation .sailthru-signup-display-button.sailthru-subscribe-form-SM-display {
+  width: 100%;
+}
+
+/* Newsnation theme */
+.newsnation .sailthru-subscribe-grid-display {
+    display: block;
+}
+
+.newsnation .sailthru-signup-display-area {
+    color: #333;
+    background-color: #e5e5e5;
+    border-radius: 2px;
+    padding: 1.3em;
+}
+
+.newsnation .sailthru-signup-display-message-wrapper {
+    display: block;
+    width: 100%;
+}
+
+.newsnation .sailthru-signup-display-message-wrapper .sailthru-signup-display-logo,
+.newsnation .sailthru-signup-success-message .icon {
+    background-image: url('/wp-content/themes/newsnation/client/static/newsnation_logo.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    display: block;
+    height: 30px;
+    margin: 0.1em auto 0;
+    max-width: 160px;
+    opacity: 0.8;
+    width: 160px;
+    margin-bottom: 1em;
+}
+
+.newsnation .sailthru-signup-display-message-wrapper .sailthru-signup-display-message {
+    color: #333;
+    font-family: "Nunito Sans",arial,helvetica,verdana,sans-serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: normal;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+    margin: 0.5em 0;
+    text-align: center;
+    text-transform: none;
+}
+
+.newsnation .sailthru-signup-display-message-wrapper .sailthru-signup-display-message {
+    display: block;
+    padding: 0 1em;
+}
+
+.newsnation .sailthru-add-subscriber-form {
+    display: block;
+    font-family: "Nunito Sans",arial,helvetica,verdana,sans-serif;
+    font-size: 1.2em;
+    margin-top: 0.9rem;
+}
+
+.newsnation .sailthru-add-subscriber-form .sailthru_form_input input {
+    border: 1px solid #333;
+}
+
+.newsnation .sailthru-add-subscriber-form .sailthru-signup-display-button {
+    background-color: #333;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: none;
+    width: 100%;
+}
+
+.newsnation .sailthru-signup-success-message {
+    align-content: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family:  "Nunito Sans",arial,helvetica,verdana,sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    justify-content: flex-start;
+    line-height: 1;
+    margin: 1rem 0.5rem;
+    text-align: center;
+}
+
+.newsnation .sailthru-signup-success-message .icon {
+    align-self: auto;
+    flex: 0 1 auto;
+    margin: 0.1em auto 1em;
+    opacity: 0.8;
+    order: 0;
+}
+
+.newsnation .sailthru-signup-success-message .success-text-wrap {
+    align-self: auto;
+    flex: 0 1 auto;
+    order: 0;
+}
+
+.newsnation .sailthru-signup-success-message p {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.newsnation .sailthru-signup-success-message a,
+.newsnation .sailthru-signup-success-message a:visited,
+.newsnation .sailthru-signup-success-message a:active {
+    color: #333;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.newsnation .sailthru-add-subscriber-errors {
+    height: auto;
+    min-height: auto;
+    margin-bottom: 0.5em;
+}
+
+/* Nexstar WV theme */
+.nexstar-wv .sailthru-signup-display-area {
+    min-height: 175px;
+    background-color: #E2E7E9;
+    border-radius: 2px;
+    padding: 23px;
+}
+
+.nexstar-wv .content-area .sailthru-signup-display-area {
+    display: flex;
+}
+
+.nexstar-wv .content-area .sailthru-signup-display-area .sailthru_form {
+  flex-grow: 1;
+}
+
+.nexstar-wv .sailthru-signup-display-message {
+    color: #1C1C1C;
+    font-family: "Source Sans Pro", georgia, times, serif;
+    font-size: 34px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 34px;
+    letter-spacing: -0.1px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.nexstar-wv .sailthru-signup-display-message span {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.nexstar-wv .sailthru-signup-display-sub-message {
+    color: #4D4D4D;
+    font-family: "Source Sans Pro", georgia, times, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    opacity: 1;
+    text-align: left;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.nexstar-wv .sailthru-signup-display-sub-message::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 31px;
+    margin-right: 10px;
+    background-image: url('../img/icon-envelope.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nexstar-wv .sailthru-add-subscriber-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.nexstar-wv .content-area .sailthru-signup-display-message {
+    font-size: 41px;
+    line-height: 40px;
+}
+
+.nexstar-wv .content-area .sailthru-signup-display-message span {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.nexstar-wv .sailthru-signup-success-message {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: "Source Sans Pro", arial, helvetica, verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    top: 100px;
+}
+
+.nexstar-wv .sailthru-signup-success-message .icon,
+.nexstar-wv .sailthru-signup-success-message .thanks {
+    margin-bottom: 8px;
+}
+
+.nexstar-wv .sailthru-signup-success-message .icon {
+    background-image: url('../img/icon-check.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 37px;
+    width: 37px;
+}
+
+.nexstar-wv .sailthru-signup-success-message .thanks {
+    color: #1C1C1C;
+    font-family: "Source Sans Pro", arial, helvetica, verdana, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -0.1px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.nexstar-wv .sailthru-signup-success-message .watch {
+    opacity: 1;
+    color: #4D4D4D;
+    font-family: "Source Sans Pro", arial, helvetica, verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 21px;
+}
+
+@media only screen and (min-width: 800px) {
+    .nexstar-wv .content-area .sailthru-subscribe-grid-display {
+        display: grid;
+        grid-auto-rows: auto;
+    }
+
+    .nexstar-wv .sailthru-add-subscriber-form {
+        flex-direction: row;
+    }
+
+    .nexstar-wv .sailthru-add-subscriber-form .sailthru_email,
+    .nexstar-wv .sailthru-add-subscriber-form .input-group-btn,
+    .nexstar-wv .sailthru-add-subscriber-form .sailthru-signup-display-button {
+        height: 44px;
+    }
+
+    .nexstar-wv .sailthru-add-subscriber-form .sailthru_form_input {
+        flex-grow: 1;
+        margin-right: 10px;
+    }
+
+    .nexstar-wv .sailthru-add-subscriber-form .sailthru_email {
+        margin: 0;
+    }
+
+    .nexstar-wv .sailthru-add-subscriber-form .input-group-btn {
+        width: 190px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    /* nexstar-wv */
+    .nexstar-wv .widget-area .sailthru-signup-display-area .sailthru-add-subscriber-form {
+        flex-direction: column;
+    }
+
+    .nexstar-wv .widget-area .sailthru-signup-display-area .sailthru_form_input {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .nexstar-wv .widget-area .sailthru-signup-display-area .input-group-btn {
+        width: auto;
+    }
+
+    .nexstar-wv .widget-area .sailthru-signup-display-area .thanks {
+      font-size: 26px;
+    }
+
+    .nexstar-wv .widget-area .sailthru-signup-display-area .watch {
+      font-size: 18px;
+    }
+  }
+
+.nexstar-wv .sailthru_email {
+    background-color: #fff;
+    border: 1px solid #1C1C1C;
+    border-radius: 2px;
+    color: #1c1c1c;
+    font-family: "Source Serif Pro", georgia, times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -.01em;
+    line-height: 20px;
+    margin: 0 0 10px;
+}
+
+.nexstar-wv .sailthru_email::placeholder {
+    color: #8E8E8E;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -1px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.nexstar-wv .sailthru-signup-display-button {
+    background-color: #1C1C1C;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #FFF;
+    cursor: pointer;
+    font-family: "Source Sans Pro", arial, helvetica, verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    border-color: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nexstar-wv .sailthru-signup-display-button .arrow {
+    height: 12px;
+    width: 12px;
+    margin-left: 12px;
+    border-color: #FF4848;
+    border-width: 4px;
+    border-style: solid;
+    border-left: transparent;
+    border-top: transparent;
+    transform: rotate(-45deg);
+}
+
+.nexstar-wv .sailthru-signup-display-button:hover {
+    background-color: #FF4848;
+    color: #fff;
+}
+
+.nexstar-wv .sailthru-signup-display-button:hover > .arrow {
+    border-color: #fff;
+}
+
+.nexstar-wv .sailthru-add-subscriber-errors {
+    color: #921e17;
+    font-family: "Source Sans Pro", arial, helvetica, verdana, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* The-Hill theme */
+.the-hill .sailthru-signup-display-area {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #2A52C1;
+    color: white;
+}
+
+.the-hill .sailthru_email {
+    background: #5776CE 0% 0% no-repeat padding-box;
+    font-weight: 100;
+    height: 50px;
+    opacity: 0.95;
+    border: none;
+    color: white;
+    margin: 0 0 1em;
+    padding: 6px 15px;
+    text-align: center;
+}
+
+.the-hill input.sailthru_email::placeholder {
+    text-align:left;
+    color: white;
+}
+
+.the-hill .sailthru-signup-display-button {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0;
+    color: #2A52C1;
+    cursor: pointer;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0;
+    width: 100%;
+}
+
+.the-hill .sailthru-subscribe-grid-display {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.the-hill .sailthru-signup-display-message-wrapper {
+  display: grid;
+  grid-template-columns:4fr 7fr;
+  grid-gap: 2rem;
+
+}
+
+.the-hill .sailthru-signup-display-area {
+    padding: 10px 20px 20px;
+}
+
+.the-hill .sailthru-signup-display-message-wrapper .sailthru-signup-display-logo,
+.the-hill .sailthru-signup-success-message .icon {
+    background-image: url(/wp-content/themes/the-hill/assets/the-hill-logo-horizontal.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    display: grid;
+    height: 60px;
+    margin: 0.25em auto 0;
+    max-width: 270px;
+    width: 200px;
+}
+
+.the-hill .sailthru-signup-success-message .icon {
+    margin: 0 auto;
+}
+
+.the-hill .sailthru-signup-display-message,
+.the-hill .sailthru-signup-success-message {
+    font-size: 0.9rem;
+    font-weight: 100;
+    line-height: 1.4rem;
+    letter-spacing: 0.03rem;
+    padding-top: 0.5rem;
+    min-width: 12rem;
+    width: 100%;
+}
+
+.the-hill .sailthru-signup-success-message {
+    margin: 1em 0;
+    flex-flow: column;
+    font-size: 0.7em;
+    line-height: 1.8em;
+}
+
+.the-hill .sailthru-signup-display-subtitle {
+    display: none;
+}
+
+.the-hill .sailthru-signup-success-message p {
+    margin: 0 1.5em;
+}
+
+.the-hill .sailthru-signup-success-message a,
+.the-hill .sailthru-signup-success-message a:visited,
+.the-hill .sailthru-signup-success-message a:active {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.the-hill .sailthru-signup-display-message span {
+    white-space: pre-line;
+    text-transform: none;
+}
+
+.the-hill .sailthru-add-subscriber-errors {
+    color:#e2473d;
+    display: none;
+    margin: 0 auto 1.2em;
+    text-align: center;
+}
+
+.the-hill .sailthru-signup-hill-position-main .sailthru-signup-display-message-wrapper .sailthru-signup-display-message span {
+    white-space: normal;
+}
+
+.the-hill .sailthru-signup-hill-position-main input.sailthru_email,
+.the-hill .sailthru-signup-hill-position-main input.sailthru_email::placeholder {
+    text-align: left;
+}
+
+.the-hill.category-hilltv .widget.Sailthru_Subscribe {
+    grid-column: 3/span 10;
+}
+
+.the-hill.category .col-feature-left .widget.Sailthru_Subscribe {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    padding: 0;
+}
+
+.the-hill.category .col-feature-left .widget.Sailthru_Subscribe .sailthru-signup-hill-position-main {
+    grid-column: 1/span 12;
+    margin: 20px 0;
+}
+
+.the-hill .sailthru-add-subscriber-errors {
+    height: auto;
+}
+
+.the-hill .sailthru-signup-display-area{
+    text-align: left;
+}
+
+.the-hill .sailthru-subscribe-SM-display input.sailthru_email::placeholder{
+    text-align: center;
+}
+
+/* The Hill - Changing America */
+.the-hill.category-changing-america .Sailthru_Subscribe,
+.the-hill .ca-site-content .Sailthru_Subscribe {
+    background: #fdb141;
+}
+.the-hill.category-changing-america .sailthru-signup-display-area,
+.the-hill .ca-site-content .sailthru-signup-display-area {
+    margin: 0 auto;
+    padding: 1em;
+    width: auto;
+}
+
+.the-hill.category-changing-america .sailthru-subscribe-grid-display,
+.the-hill .ca-site-content .sailthru-subscribe-grid-display {
+    grid-template-columns: 60% 40%;
+}
+
+.the-hill.category-changing-america .sailthru-signup-display-area,
+.the-hill.category-changing-america .sailthru-signup-display-button,
+.the-hill.category-changing-america .sailthru-signup-success-message p,
+.the-hill .ca-site-content .sailthru-signup-display-area,
+.the-hill .ca-site-content .sailthru-signup-display-button,
+.the-hill .ca-site-content .sailthru-signup-success-message p {
+    background: #fdb141;
+    color: black;
+    font-family: Blacker Medium,serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -.02em;
+    line-height: 1.21em;
+}
+
+.the-hill.category-changing-america .sailthru-signup-success-message p,
+.the-hill.category-changing-america .sailthru-signup-success-message p {
+    display: block;
+    margin: 0;
+    padding: 0.6em 0 0;
+    font-size: 22px;
+}
+
+.the-hill.category-changing-america .sailthru-signup-success-message a,
+.the-hill.category-changing-america .sailthru-signup-success-message a:visited,
+.the-hill.category-changing-america .sailthru-signup-success-message a:active,
+.the-hill .ca-site-content .sailthru-signup-success-message a,
+.the-hill .ca-site-content .sailthru-signup-success-message a:visited,
+.the-hill .ca-site-content .sailthru-signup-success-message a:active {
+    color: #000;
+}
+
+.the-hill.category-changing-america .sailthru-signup-display-button,
+.the-hill .ca-site-content .sailthru-signup-display-button {
+    font-size: 28px;
+    font-style: italic;
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.the-hill.category-changing-america .sailthru-signup-display-message,
+.the-hill .ca-site-content .sailthru-signup-display-message {
+    text-align: left;
+    padding: 1em 1em 1em 0;
+}
+
+.the-hill.category-changing-america .sailthru-signup-display-message .sailthru-signup-display-subtitle,
+.the-hill .ca-site-content .sailthru-signup-display-message .sailthru-signup-display-subtitle {
+    display: block;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3em;
+    padding: 1em 0 0;
+}
+.the-hill .ca-site-content .sailthru-signup-display-message .sailthru-signup-display-subtitle {
+    font-size: 16px;
+}
+
+.the-hill.category-changing-america .sailthru-add-subscriber-form,
+.the-hill .ca-site-content .sailthru-add-subscriber-form {
+    border-bottom: 1px solid black;
+}
+
+.the-hill.category-changing-america .sailthru-add-subscriber-form.sailthru-subscribe-SM-display,
+.the-hill .ca-site-content .sailthru-add-subscriber-form.sailthru-subscribe-SM-display {
+    display: grid !important;
+}
+
+.the-hill.category-changing-america .sailthru-add-subscriber-form .sailthru_form_input,
+.the-hill.category-changing-america .sailthru-add-subscriber-form .input-group-btn,
+.the-hill .ca-site-content .sailthru-add-subscriber-form .sailthru_form_input,
+.the-hill .ca-site-content .sailthru-add-subscriber-form .input-group-btn {
+    height: 50px;
+}
+
+.the-hill.category-changing-america .sailthru-add-subscriber-form .sailthru_email,
+.the-hill .ca-site-content .sailthru-add-subscriber-form .sailthru_email {
+    font-size:16px;
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+.the-hill.category-changing-america .sailthru-add-subscriber-form input.sailthru_email::placeholder,
+.the-hill .ca-site-content .sailthru-add-subscriber-form input.sailthru_email::placeholder {
+    color: #a5732a;
+    text-transform: uppercase;
+}
+
+.the-hill.category-changing-america .sailthru-add-subscriber-form .sailthru-add-subscriber-errors,
+.the-hill .ca-site-content .sailthru-add-subscriber-form .sailthru-add-subscriber-errors {
+    line-height: 1em;
+    text-align: left;
+}
+
+
+.the-hill.category-changing-america .sailthru-signup-display-logo,
+.the-hill.category-changing-america .sailthru-signup-display-message-wrapper .sailthru-signup-display-logo,
+.the-hill.category-changing-america .sailthru-signup-success-message .icon,
+.the-hill .ca-site-content .sailthru-signup-display-logo,
+.the-hill .ca-site-content .sailthru-signup-display-message-wrapper .sailthru-signup-display-logo,
+.the-hill .ca-site-content .sailthru-signup-success-message .icon {
+    display: none;
+}
+
+.the-hill.category-changing-america .sailthru_email,
+.the-hill .ca-site-content .sailthru_email {
+    background: none;
+    font-weight: 100;
+    height: 50px;
+    opacity: 0.95;
+    border: none;
+    color: black;
+    margin: 0 0 1em;
+    padding: 6px 15px;
+    text-align: center;
+}
+
+.the-hill.category-changing-america .sailthru-signup-display-message span,
+.the-hill .ca-site-content .sailthru-signup-display-message span {
+    color: #000;
+    display: block;
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 2rem;
+    text-align: left;
+}
+.the-hill .ca-site-content .sailthru-signup-display-message span {
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .the-hill.category-changing-america .sailthru-subscribe-grid-display,
+    .the-hill .ca-site-content .sailthru-subscribe-grid-display {
+        display: block !important;
+    }
+
+    .the-hill.category-changing-america .sailthru-signup-display-message span,
+    .the-hill .ca-site-content .sailthru-signup-display-message span {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    .newsnation .sailthru-signup-display-area {
+        padding: 20px 30px 15px;
+    }
+
+    .newsnation .sailthru-subscribe-grid-display {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 6fr 5fr;
+    }
+
+    .newsnation .sailthru-signup-display-message-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .newsnation .sailthru-signup-display-message-wrapper .sailthru-signup-display-logo {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .newsnation .sailthru-signup-display-message-wrapper .sailthru-signup-display-message {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 120%;
+        flex: 2;
+        margin: 0;
+        text-align: left;
+    }
+    .newsnation .sailthru-add-subscriber-form {
+        display: grid;
+        grid-template-columns: 7fr 2fr;
+    }
+
+    .newsnation .sailthru-signup-display-message-wrapper .sailthru-signup-display-logo {
+        height: 24px;
+        max-width: 130px;
+        width: 130px;
+    }
+
+    .newsnation .sailthru-signup-success-message p {
+        display: inline;
+    }
+
+    .newsnation .sailthru-add-subscriber-errors {
+        margin-bottom: 0;
+        min-height: 16px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .the-hill .sailthru-signup-hill-position-main .sailthru-signup-display-message-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .the-hill .sailthru-signup-hill-position-main .sailthru-signup-display-message-wrapper .sailthru-signup-display-logo {
+        background-position: 0 center;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        margin: 0.25em 0 0;
+    }
+    .the-hill .sailthru-signup-hill-position-main .sailthru-signup-display-message-wrapper .sailthru-signup-display-message {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 120%;
+        flex: 2;
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .the-hill .sailthru-signup-display-area.sailthru-signup-hill-position-main {
+        padding: 10px 30px 20px;
+    }
+
+    .the-hill.category .col-main .widget.Sailthru_Subscribe .sailthru-signup-hill-position-main,
+    .the-hill.category .col-feature-left .widget.Sailthru_Subscribe .sailthru-signup-hill-position-main {
+        margin: 0 0 30px;
+    }
+
+    .the-hill.category-changing-america .sailthru-signup-display-area.sailthru-signup-hill-position-main {
+        max-width: 1200px;
+        padding: 1em 0;
+        width: 84%;
+    }
+
+    .the-hill.category-changing-america .sailthru-signup-display-logo,
+    .the-hill.category-changing-america .sailthru-signup-display-message-wrapper .sailthru-signup-display-logo,
+    .the-hill.category-changing-america .sailthru-signup-success-message .icon,
+    .the-hill .ca-site-content .sailthru-signup-display-logo,
+    .the-hill .ca-site-content .sailthru-signup-display-message-wrapper .sailthru-signup-display-logo,
+    .the-hill .ca-site-content .sailthru-signup-success-message .icon {
+        display: none;
+    }
+
+    .the-hill.category-changing-america .sailthru-signup-hill-position-main .sailthru-signup-display-message-wrapper .sailthru-signup-display-message,
+    .the-hill .ca-site-content .sailthru-signup-hill-position-main .sailthru-signup-display-message-wrapper .sailthru-signup-display-message {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .the-hill.category-changing-america .sailthru-signup-success-message {
+        flex-flow: row;
+    }
+    .the-hill.category-changing-america .sailthru-signup-success-message p {
+        display: inline-block;
+        padding: 1em 0.5em 1em 0;
+    }
+
+}

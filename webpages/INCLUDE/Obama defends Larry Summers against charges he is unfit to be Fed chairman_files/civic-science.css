@@ -1,0 +1,11 @@
+article.article__content .civic-science-container::before,
+.single .site-main .civic-science-container::before,
+.single .site .civic-science-article-container::before {
+    color: #d0d0d0;
+    content: "CONTENT CONTINUES BELOW SURVEY";
+    display: block;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0293)https://instaread.co/player?article=obama-defends-larry-summers-against-charges-he-is-unfit-to-be-fed-chairman&publication=thehill&article_url=https%3A%2F%2Fthehill.com%2Fpolicy%2Ffinance%2F158024-obama-defends-larry-summers-against-charges-he-is-unfit-to-be-fed-chairman&version=1771251600000 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="icon" type="image/x-icon" href="https://instaread.co/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="https://instaread.co/favicon.ico">
+        <title>Instaread In Article Audio Player</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, shrink-to-fit=no user-scalable=no">
+        <meta name="description" content="Instaread In Article Audio Player">
+        <meta name="apple-itunes-app" content="app-id=1046172976">
+        <link rel="preconnect" href="https://player-metrics.instaread.co/" crossorigin="">
+     </head>
+      <body>   
+        <script async="" src="./clarity.js"></script><script async="" src="./ruzcbyv17b"></script><script type="text/javascript">
+  var LogEvent = function (options) {
+    // Add timestamp for better analytics
+    options.timestamp = options.timestamp || Date.now();
+    fetch("https://player-api.instaread.co/api/metrics/collect", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=UTF-8",
+      },
+      body: JSON.stringify(options),
+    });
+  };
+  var ProecssAudio = function (url) {
+    if (!url) return;
+    fetch("https://player-api.instaread.co/api/process/article", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=UTF-8",
+      },
+      body: JSON.stringify({ url: url }),
+    });
+  };
+
+  async function processAudioV2(payload) {
+    const apiEndpoint = "https://player-api.instaread.co/api/player/process";
+
+    try {
+      const response = await fetch(apiEndpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json;charset=UTF-8" },
+        body: JSON.stringify(payload),
+      });
+      if (!response.ok) {
+        console.warn(
+          `[Instaread Player] Backend request failed with status: `,
+        );
+        return false;
+      }
+
+      const data = await response.json();
+      return true;
+    } catch (error) {
+      console.warn(
+        "[Instaread Player] Failed to send payload to backend:",
+        error,
+      );
+      return false;
+    }
+  }
+
+  async function processAudioV3(payload) {
+    const apiEndpoint =
+      "https://player-api.instaread.co/api/player/process/wordpress";
+
+    try {
+      const response = await fetch(apiEndpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json;charset=UTF-8" },
+        body: JSON.stringify(payload),
+      });
+      if (!response.ok) {
+        console.warn(
+          `[Instaread Player] Backend request failed with status: `,
+        );
+        return false;
+      }
+
+      const data = await response.json();
+      return true;
+    } catch (error) {
+      console.warn(
+        "[Instaread Player] Failed to send payload to backend:",
+        error,
+      );
+      return false;
+    }
+  }
+</script>
+
+<script type="text/javascript">
+  (function (c, l, a, r, i, t, y) {
+    c[a] =
+      c[a] ||
+      function () {
+        (c[a].q = c[a].q || []).push(arguments);
+      };
+    t = l.createElement(r);
+    t.async = 1;
+    t.src = "https://www.clarity.ms/tag/" + i;
+    y = l.getElementsByTagName(r)[0];
+    y.parentNode.insertBefore(t, y);
+  })(window, document, "clarity", "script", "ruzcbyv17b");
+</script>
+<script>
+          // Send a message to the parent
+          var sendMessage = function (msg) {
+            // Make sure you are sending a string, and to stringify JSON
+            window.parent.postMessage(msg, '*');
+          };
+          sendMessage(JSON.stringify({
+            "hideComingSoon": true
+          }));
+          // var providerData = JSON.parse('{"placement_id" : "", "is_sponsor_logo":, "adsprovider": "", "ad_provider_URL" : "",  "ad_widget_container_id_32050" : "",  "ad_widget_container_id_72890" : "", "ad_widget_container_class" : "", "ad_provider_id_32050" : "","ad_provider_id_72890" : "", "ads_enabled":  "false", "is_desktop_layout_enabled": "", "provider_domain":  "https://thehill.com/", "speaker_icon_color": "", "speaker_icon_color_offset": "", "widget_layout_class_desktop": "", "widget_layout_class_mobile": "", "mobile_player_height":"", "mobile_default_ad_height":"", "desktop_player_height":"", "desktop_default_ad_height":""}');
+          var isShare = false;
+          let params = new URL(document.location).searchParams;
+          var globalPublicationName = "thehill";
+          var globalArticleTitle = params?.get("article");
+          var globalArticleurl = params?.get("article_url");   
+           LogEvent({
+            "type": "event",
+            "payload": {
+              "publication": globalPublicationName,
+              "event_name": "WIDGET_LOAD",
+              "event_data": {
+                "title": globalArticleTitle,
+                "withAudio": false
+              }
+            }
+          });         
+          if (!!globalArticleurl)
+            ProecssAudio(globalArticleurl);  
+        </script>
+      
+
+      </body></html>
