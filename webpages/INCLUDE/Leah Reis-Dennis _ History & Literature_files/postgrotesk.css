@@ -1,0 +1,47 @@
+/* ProGrotesk Book */
+@font-face {
+  font-family: 'Post Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('postgrotesk/PostGrotesk-Book.woff2') format('woff2');
+}
+
+/* ProGrotesk Italic */
+@font-face {
+  font-family: 'Post Grotesk';
+  font-style: italic;
+  font-weight: 400;
+  src: url('postgrotesk/PostGrotesk-BookItalic.woff2') format('woff2');
+}
+
+/* ProGrotesk Medium */
+@font-face {
+  font-family: 'Post Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  src: url('postgrotesk/PostGrotesk-Medium.woff2') format('woff2');
+}
+
+/* ProGrotesk Medium Italic */
+@font-face {
+  font-family: 'Post Grotesk';
+  font-style: italic;
+  font-weight: 600;
+  src: url('postgrotesk/PostGrotesk-MediumItalic.woff2') format('woff2');
+}
+
+/* ProGrotesk Bold */
+@font-face {
+  font-family: 'Post Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src: url('postgrotesk/PostGrotesk-Bold.woff2') format('woff2');
+}
+
+/* ProGrotesk Bold Italic */
+@font-face {
+  font-family: 'Post Grotesk';
+  font-style: italic;
+  font-weight: 700;
+  src: url('postgrotesk/PostGrotesk-BoldItalic.woff2') format('woff2');
+}

@@ -1,0 +1,31 @@
+/* Sanomat */
+@font-face {
+  font-family: 'Sanomat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('sanomat/Sanomat-Regular-Web.woff2') format('woff2');
+}
+
+/* Sanomat Italic */
+@font-face {
+  font-family: 'Sanomat';
+  font-style: italic;
+  font-weight: 400;
+  src: url('sanomat/Sanomat-RegularItalic-Web.woff2') format('woff2');
+}
+
+/* Sanomat Medium */
+@font-face {
+  font-family: 'Sanomat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('sanomat/Sanomat-Medium-Web.woff2') format('woff2');
+}
+
+/* Sanomat Medium Italic */
+@font-face {
+  font-family: 'Sanomat';
+  font-style: italic;
+  font-weight: 500;
+  src: url('sanomat/Sanomat-MediumItalic-Web.woff2') format('woff2');
+}
